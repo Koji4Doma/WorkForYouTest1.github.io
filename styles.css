@@ -1,0 +1,193 @@
+/* Общие стили */
+body {
+  font-family: Courier, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #000000;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.title h1 {
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.block {
+  width: 30%;
+}
+
+.block img {
+  width: 100%;
+}
+
+footer {
+  background-color: #000000;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-icons li img {
+  width: 40px;
+  height: 40px;
+}
+.title h1 {
+    font-size: 400%; /* Размер шрифта в 150% от изначального размера */
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px; /* Увеличение размера шрифта для всех кнопок */
+    padding: 10px 20px; /* Добавление отступов для кнопок */
+  }
+  
+  .main-button {
+    font-weight: bold; /* Выделение главной кнопки */
+  }
+  
+  .other-button {
+    font-weight: normal; /* Уменьшение жирности для остальных кнопок */
+  }
+  /* Стили для кнопок навигации */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Размер шрифта */
+    padding: 12px 20px; /* Отступы внутри кнопок */
+    border-radius: 5px; /* Скругленные углы */
+    margin-right: 10px; /* Отступ между кнопками */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+  }
+  
+  /* Основной стиль кнопки "Главная" */
+  .main-button {
+    background-color: #000000; /* Цвет фона */
+  }
+  
+  /* Стили для остальных кнопок */
+  .other-button {
+    background-color: #2196F3; /* Цвет фона */
+  }
+  
+  /* Стили при наведении на кнопку */
+  nav ul li a:hover {
+    background-color: #000000; /* Цвет фона при наведении */
+  }
+  /* Стили для кнопок навигации */
+nav ul li {
+    display: inline-block; /* Отображение кнопок в строку */
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-button {
+    background-color: #181717;
+  }
+  
+  .other-button {
+    background-color: #181717;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Стили для блоков текста */
+  .block {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .block h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .block p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  /* CSS код для анимаций при наведении */
+
+/* Добавляем анимацию при наведении на блоки */
+.block {
+    width: 30%;
+    transition: transform 0.3s ease; /* добавляем плавный переход */
+  }
+  
+  .block:hover {
+    transform: scale(1.05); /* увеличиваем размер при наведении */
+  }
+  
+  /* Добавляем анимацию при наведении на встроенный сайт */
+  .site-embed {
+    width: 60%;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    transition: box-shadow 0.3s ease; /* добавляем плавный переход */
+  }
+  
+  .site-embed:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* добавляем тень при наведении */
+  }
+  
